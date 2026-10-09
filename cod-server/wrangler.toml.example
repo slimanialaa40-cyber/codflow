@@ -22,7 +22,7 @@ compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
 binding = "DB"
 database_name = "codflow-os-db"
 # Replace with the id from `wrangler d1 create codflow-os-db`.
-database_id = "00000000-0000-0000-0000-000000000000"
+database_id = "e0b285d3-0f64-44b2-a797-4aa3d03ac88f"
 migrations_dir = "src/db/migrations"
 
 # R2 bucket for product images (serve + presigned uploads).
@@ -39,13 +39,13 @@ binding = "IMAGE_TRANSFORM"
 # KV namespace for rate limiting.
 [[kv_namespaces]]
 binding = "RATE_LIMIT"
-id = "00000000000000000000000000000000"
+id = "6cd894eb1c4444b0b20f56ba4d739435"
 
 # KV namespace for the MCP OAuth provider (clients, grants, tokens, props).
 # Create with: wrangler kv namespace create OAUTH_KV
 [[kv_namespaces]]
 binding = "OAUTH_KV"
-id = "00000000000000000000000000000000"
+id = "fbd7de51bd0c4c6e9ec74b913d09c0f1"
 
 # CodCapiWorkflow — fires Meta CAPI Purchase events at order delivery.
 [[workflows]]
