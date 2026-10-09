@@ -12,7 +12,7 @@
 #   wrangler deploy
 # ─────────────────────────────────────────────────────────────────────────────
 
-name = "codflow-server"
+name = "codflow"
 main = "src/index.ts"
 compatibility_date = "2024-11-27"
 compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
